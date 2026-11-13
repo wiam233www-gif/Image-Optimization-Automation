@@ -165,9 +165,9 @@ def process_images(
 if __name__ == "__main__":
 
     process_images(
-        names_file="C:names.txt",
-        input_dir="C:input_images",
-        output_dir="C:output_images",
+        names_file=NAMES_FILE,
+        input_dir=INPUT_DIR,
+        output_dir=OUTPUT_DIR,
         target_size=(1000, 1000),
         quality=80,
         convert_to_webp=False
